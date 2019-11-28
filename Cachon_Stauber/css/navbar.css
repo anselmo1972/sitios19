@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body{
+  background-image:url(../img/blancoynegro.jpg);
+}
+
+.logo{
+  background-color: #444957;
+  overflow:hidden;
+}
+.logo img{
+  width: 100px;
+}
+.goethe {
+    float: left;
+    width: 10px;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  height: 50%;
+  color: white;
+  float:right ;
+  margin-right:500px;
+  margin-top:50px ;
+  font-family: 'Audiowide', cursive;
+}
+.goethe{
+  float: left;
+  width:10px;
+}
+
+.list{
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+}
+.list ol{
+  list-style: none
+  
+}
+
+.list ol li{
+  float: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 8%;
+  text-align: center
+}
+.list ol li a{
+  color: white;
+}
+.list ol li a:hover{
+  color: red;
+}

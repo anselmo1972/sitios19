@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.logo{
+  background-color: #444957;
+  overflow:hidden;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  height: 50%;
+  color: white;
+  float:right ;
+  margin-right:500px;
+  margin-top: 50px;
+  font-family: 'Audiowide', cursive;
+  text-decoration: underline;
+}
+.goethe{
+  float: left;
+  width:10px;
+}
+
+.list{
+  background-color: black;
+  /* height: 1380px; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.list ol li{
+  list-style: none;
+  float: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 8%;
+  text-align: center
+}
+.list ol li a:hover{
+  color: red;
+}
+
+main{
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+}
+
+
+.contenedor-principal{
+  background-color: black;
+  width: 100%;
+}
+
+.materias{
+  width: 30%;
+  height: 300px;
+  float: right;
+  margin: 1.5%;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.81);
+  /* padding: 67px; */
+}
+.materias:hover {
+  background-color: rgba(255, 0, 0, 0.71) ;
+
+}
+
+.materias h2{
+  text-align: center;
+  margin: 0;
+  font-family: 'Alfa Slab One', cursive;
+}
+.materias a{
+  color: black;
+  font-family: 'Suez One', serif;
+}
+
+.consejeria .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/cc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.geografia .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/map.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -40px;
+}
+.ingles .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/ingles.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px;
+}
+.fisica .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/atomo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:-70px;
+}
+.deporte .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/pe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.informatica .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/it.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:-70px;
+}
+.arte .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/art.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.historia .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/historia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.lengua .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/lengua.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.matematicas .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/math.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aleman .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/alman.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.biologia .fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/biologia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.deporte img{
+  width: 100%;
+}
+
+.list ol li a {
+  color: white;
+  font-family: 'Notable', sans-serif;
+}
+
+.logo img {
+  width: 100px;
+
+}
+
+.goethe {
+  text-align: center;
+
+
+}
+
+.dibujo{
+  background-color: red;
+}
+.geografia{
+  background-image: url(img/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+footer{
+  background-color: #444957;
+  text-align: center;
+  color: white;
+}
+
+p{
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+
+}
+
+body{
+  background-image:url(../img/blancoynegro.jpg);
+}
+
+/* aca empieza PE */

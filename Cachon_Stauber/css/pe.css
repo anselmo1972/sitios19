@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.photo-container{
+width: 100%;
+}
+.photo-container .row-1{
+  overflow: hidden;
+  width: 100%;
+
+}
+.photo-container .row-1 img{
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  border:10px double black;
+  margin-right: 20px;
+  width: 250px;
+}
+.photo-container .row-1 p{
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  margin-left: 15px;
+  text-align: center;
+
+
+}
+.photo-container .row-2{
+  overflow: hidden;
+  width: 100%;
+
+}
+.photo-container .row-2 img{
+  float: right;
+  width: 30%;
+  border:10px double black;
+  margin-right: 20px;
+
+}
+.photo-container .row-2 p{
+  float: right;
+  width: 30%;
+  margin-top: 50px;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+
+}
+.photo-container .row-3{
+  overflow: hidden;
+  width: 100%;
+
+
+}
+.photo-container .row-3 img{
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  border:10px double black;
+  margin-right: 20px;
+
+}
+.photo-container .row-3 p{
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  margin-left: 15px;
+  text-align: center;
+
+}
+.presentacion iframe{
+  margin-left: 200px;
+  border:10px double black;
+}
+
+
+/* physics start */
+.fisica{
+  text-align: center;
+}
+.physics-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.physics-card{
+    width: 22%;
+    margin: 1.5%;
+    float: left;
+    margin:75px;
+}
+
+.physics-card img{
+    width: 100%;
+    border:10px double black;
+
+  }
+  .physics-card p{
+    text-align: center;
+  }
+
+/* physics end */
+
+/* art start */
+
+/* art end */
+
+/* sport start */
+
+/* sport end */
+.video1{
+  margin: 1.5%;
+  text-align: center;
+
+}
+
+
+.video1 iframe{
+
+  border:10px double black;
+}
+#arte{
+  text-align: center;
+
+}
