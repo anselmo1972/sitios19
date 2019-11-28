@@ -16,6 +16,7 @@ margin: 50px 0px 0px 15%;
   background-image: url("img/menumatics.jpg");
   background-size: auto;
   margin-right: 5px;
+  background-position: 0px -40px;
 }
 
 .chetamos {
@@ -25,6 +26,7 @@ margin: 50px 0px 0px 15%;
   background-image: url("img/htmlcss.jpg");
   background-size: auto;
   margin-left: 5px;
+  background-position: 0px -10px;
 }
 
 .chetamos p {
