@@ -34,3 +34,29 @@ a{
   color: grey;
   font-family: 'Bebas Neue', cursive;
 }
+#logogoe{
+  width: 7%;
+  margin-left: 1100px;
+  margin-top: -132px;
+}
+
+/*CONTENEDOR PRINCIPAL*/
+
+.contenedorprincipal {
+  width: 90%;
+
+  margin: 0 auto;
+  background-color:#FFA500 ;
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+.caja{
+  width: 45%;
+  height:200px;
+  background-color:#A52A2A ;
+  float:left;
+  margin-left: 4%;
+  margin-bottom: 16px;
+
+}

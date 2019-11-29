@@ -67,6 +67,7 @@ height: 400px;
   font-size: 30px;
 }
 
+
 /*LANDING ZONE*/
 
 .inicioprimero{
@@ -90,4 +91,10 @@ height: 400px;
   font-size: 20px;
   color: grey;
   font-family: 'Bebas Neue', cursive;
+}
+
+#logogoe{
+  width: 7%;
+  margin-left: 1100px;
+  margin-top: -132px;
 }
