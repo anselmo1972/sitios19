@@ -1,3 +1,6 @@
+/* GENERALES*/
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans+Condensed:300|Poppins&display=swap');
+
 * {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -6,4 +9,28 @@
 
 a{
   color:inherit;
+}
+
+
+.inicioprimero{
+   width: 100%;
+   background-image: url("../img/inicioprimeroback.png");
+   height: 100px;
+   padding: 90px;
+}
+
+#landingano {
+  font-size: 30px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+#landingtitulo{
+  font-size: 60px;
+  color: pink;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#landingtxt{
+  font-size: 20px;
+  color: grey;
+  font-family: 'Bebas Neue', cursive;
 }
