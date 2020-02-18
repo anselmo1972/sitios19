@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  overflow: hidden;
+}
+.menu{
+  float: left;
+  width: 14%;
+  height: 100px;
+  background-color: white;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo{
+  width: 15%;
+  height: 150px;
+  background-color: black;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+
+}
+.menu a{
+color: black;
+font-size: 18px;
+padding-top: 20px;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+main{
+  background-image: url(imagenes/fondorojo.jpg);
+  background-attachment: fixed;
+}
+
+.contenedora1{
+  overflow: hidden;
+}
+
+.slogan{
+  float:left;
+  width: 80%;
+  height: 85px;
+  padding-left: 40px;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  background-color:white;
+}
+
+.link{
+  float:left;
+  width: 20%;
+  height: 85px;
+  background-color:white;
+}
+.link img{
+  width: 20%;
+  margin:5px;
+  border-radius: 200px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9), 0 3px 6px rgba(0,0,0,0.9);
+}
+.link p{
+  font-size: 12px;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-bottom: 20px;
+}
+.contenedora2{
+  overflow: hidden;
+}
+
+.proyecto{
+  float:left;
+  width: 60%;
+  height: 300px;
+}
+.proyecto h1{
+  margin-top: 50px;
+  margin-left: 45px;
+  margin-right: 40px;
+  padding-top: 20px
+  padding-left: 20px;
+  padding-bottom: 5px;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.proyecto p{
+  margin-bottom: : 20px;
+  margin-left: 45px;
+  margin-right: 40px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+
+.fotogrupo{
+  width: 40%;
+  height: 350px;
+  margin-top: 20px;
+  float: left;
+  text-align: center;
+}
+.fotogrupo img{
+  width: 70%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transform: rotate(5deg);
+}
+.contenedora3{
+  overflow: hidden;
+}
+
+.vision{
+  width: 50%;
+  height: 200px;
+  margin-bottom: 20px;
+  float: left;
+}
+.vision h2{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.vision p{
+  margin-bottom: : 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.mision{
+  width: 50%;
+  height: 200px;
+  margin-bottom: 20px;
+  float: left;
+}
+.mision h2{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.mision p{
+  margin-bottom: : 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+footer{
+  color: black;
+  border-top: 2px solid black;
+  }
+  .box{
+    overflow: hidden;
+  }
+  .IZQ{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+  }
+  .IZQ p{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }
+  .logocole{
+    width: 6%;
+    float: left;
+  }
+  .logocole img{
+    width: 100%;
+  }
+  .DER{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    background-color: white;
+  }
+  .DER p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CHUBS TO THE ORDER</title>
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <header>
+      <div class="contenedora">
+        <div class="box">
+          <img src="imagenes/logo.png" alt="" class="logo">
+        </div>
+
+        <div class="menu">
+          <a href="homeI.html">Home</a>
+        </div>
+
+        <div class="menu">
+          <a href="veggie.html">vegetarian maenu</a>
+        </div>
+        <div class="menu">
+  <a href="lowinfat.html">Low in fat menu</a>
+        </div>
+
+<div class="menu">
+<a href="traditional.html">Traditional menu</a>
+</div>
+<div class="menu">
+<a href="portfolio.html">Portfolio</a>
+
+</div>
+
+
+      </div>
+
+    </header>
+  <main>
+    <div class="">
+    <h1 class="portfolio">PORTFOLIO</h1>
+    </div>
+    <div class="">
+    <h2 class="primerpartedelproyecto">First part of the project</h2>
+    </div>
+    <div class="primerparte">
+  <img src="imagenes/trabajando.jpg" alt="">
+    </div>
+  <div class="">
+    <h3>
+    Meeting with the fourth year boys:</h3>
+  </div>
+<div class="pa">
+  Dieses Treffen hat uns sehr gut gefallen, weil wir viele neue Dinge lernen konnten. </ p>
+<p> Wir hoffen, dass wir diese Treffen fortsetzen können. Ich konnte viel dokumentieren und wir glauben, dass die von Ihnen aufgenommenen Fotos unserer Gruppe zugute kommen werden.
+um weiter zu lernen </ p>
+</div>
+    <div class="encuentrocuarto">
+      <img src="imagenes/Conloschicosde4.jpg" alt="">
+    </div>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="imagenes/Anotando información.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/Conloschicosde4.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/Juan trabajando en la mesa de bajo en grasas.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/los chicos de cuarto explicandonos.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/Mathi en el encuentro con los chicos de cuarto.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/primer dia del proyecto.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/Siena trabajando en el encuentro con los chicos de cuarto.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/Trabajando el primer dia con las computadoras.jpg" style="width:100%">
+    <img class="mySlides" src="imagenes/trabajando.jpg" style="width:100%">
+
+    </div>
+
+  </main>
+  <footer>
+    <div class="logoGoethe">
+      <img src="imagenes/logo-goethe.jpg" alt="">
+    </div>
+    <div class="parrafos">
+      <p>Goethe Schule - Menumaticas<br>Sofia C. - Mathias Q. - Siena Z. - Juan V.<br>31.10.2019</p>
+        <a href="portfolio.html">TRADUCIR AL CASTELLANO</a>
+          <a href="portfolioaleman.html">TRADUCIR AL ALEMAN</a>
+    </div>
+    <div class="logoGrupo">
+      <img src="imagenes/logo.png" alt="">
+    </div>
+  </footer>
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+  </body>
+</html>

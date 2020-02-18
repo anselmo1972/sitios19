@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+    <img src="imagenes/Ratatouille.png" alt="Logo" class="Logoimg">
+      </div>
+      <div class="menu">
+    <a href="index.html">HOME</a>
+      </div>
+      <div class="menu">
+    <a href="menuita.html">ITALIAN MENU</a>
+      </div>
+    <div class="menu">
+    <a href="menuarg.html">ARGENTINIAN MENU</a>
+        </div>
+          <div class="menu">
+    <a href="menuvegetariano.html">VEGETARIAN MENU</a>
+          </div>
+          <div class="menu">
+    <a href="portfolio.html">PORTFOLIO</a>
+          </div>
+    </header>
+
+<main>
+    <div class="contenedora">
+      <div class="titulo">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="traduccion">
+        <a href="portfolio.html">SEE TRANSLATION</a>
+      </div>
+    </div>
+    <div class="parrafo">
+      <p>  To carry out this projectwork, we wrote all our recipies in english using our Drive. Then we chose a name for our group. Fast August we chose a name for our group. Last august we met 4th year students to learn about healthy menus. They also helped us design the logo, so Juan made it and we all built our web-page. Our logo is basic but animated. When we thought of the name we knew that we were going to put a photo that has something to do with the movie "Ratatouille", because the name is inspired by it. We liked meeting 4th year students because they gave us many useful ideas for our project work. The encounter with the 6th was one of the things that helped us most. It was only one of each group, of our group was Juan. First they presented us with a presentation and explained some key things. Then they separated you at tables with a minimum one of the sixth and they were helping you and explaining how you could get the price with a profit to benefit our catering business. The sixth boys were Very friendly and they listened to every question we asked them. They always tried to explain it to you in the best way so that you would understand it well. After that we looked into budgets to see how much our menus cost, and Juan and Thomas shot a video using the I-movie tool. Filming the video was a lot of fun. Thomas cooked the tiramisu and juan the pancakes. Maiki and maia made the voices off, although maia could not finish the tiramisu because she was very busy doing the index translations so… I finish it. The editing part was half boring because you were tired of hearing the same part thousands of times until you finished editing it.</p>
+    </div>
+    <div class="slider">
+      <div class="w3-content w3-section" style="max-width:400px;height:400px">
+        <img class="mySlides" src="imagenes/portfolio_1.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_2.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_3.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_4.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_5.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_6.jpg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_7.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_8.jpg" style="width:100%">
+      </div>
+    </div>
+</main>
+
+<footer>
+  <div class="box">
+  <div class="IZQ">
+    <p>COLEGIO GOETHE</p>
+    <p>Educacion Secundaria</p>
+    <p>Asignatura de Matematica</p>
+  </div>
+  <div class="DER">
+    <p>Proyecto MENUMATICAS</p>
+    <p>Ratatoille - Servicio de Catering</p>
+    <p>Maiki C., Maia S., Thomas K. y Juan R.</p>
+  </div>
+</div>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>

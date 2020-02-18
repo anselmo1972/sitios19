@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sushi{
+  width: 24%;
+  height: 150px;
+  background-color:lightblue;
+float: left;
+}
+.sushi img{
+  width: 100%;
+  height: 150px;
+}
+.dona{
+  width: 15%;
+  height: 150px;
+  background-color: lightblue;
+  float:left;
+  text-align: center;
+  padding-top: 50px;
+
+
+}
+header{
+  overflow: hidden;c
+  background-color:lightblue;
+}
+.texto{
+  width: 400%;
+
+
+}
+
+a{
+  color: black;
+
+}
+footer{
+width: 100%;
+background-color: pink;
+}
+.mySlides {display:none;}
+.contenedora{
+  overflow: hidden;
+}
+
+.fotopapa{
+  float: left;
+  width: 50%;
+}
+
+.texto{
+  width: 50%;
+  float: left;
+}
+.d{
+  font-size: 200%;
+  text-align:center;
+}
+.video{
+  float:right;
+  width: 100%;
+}
+w3-content w3-section{
+  float: left;
+  
+}

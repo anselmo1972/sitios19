@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.logo{
+  width: 15%;
+  height: 150px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+  border: 3px solid black;
+  padding:10px;
+}
+.menu{
+  float: left;
+  width: 14%;
+  height: 100px;
+  background-color: #fc7c58;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.menu a{
+  color: black;
+  font-size: 24px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.cont {
+  background-color:white;
+  overflow: hidden;
+}
+main{
+  overflow: hidden;
+}
+.receta{
+  text-align: center;
+  font-size: 35px;
+}
+.contenedora{
+  overflow: hidden;
+}
+.comidas{
+  float: left;
+  width: 32%;
+}
+.fotito{
+  text-align: center;
+  height: 200px;
+}
+.fotito img{
+    width: 80%;
+}
+.blabla{
+  border: 3px solid black;
+  margin: 5px;
+}
+.blabla p{
+  background-color: #fc7c58;
+  margin: 5px;
+  padding:10px;
+}
+.label {
+  padding: 50px 20px 0px 40px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+.guau{
+  text-align:center;
+  font-size: 40px;
+}
+.Ver{
+  color: black;
+  padding-bottom: 20px;
+}
+
+body{
+font-family: 'Dosis', sans-serif;
+}
+
+footer{
+  overflow: hidden;
+  margin-top: 20px;
+  border-top: 2px solid black;
+}
+ .logo_cole{
+  width: 25%;
+  float: left;
+}
+.logo_cole img{
+  width: 18%;
+  padding-top: 5px;
+}
+.Colegio{
+ width: 25%;
+ margin-top: 17px;
+ float: left;
+}
+.Colegio p{
+  padding-left: 10px;
+}
+.logo_grupo{
+ width: 20%;
+ float: left;
+}
+.logo_grupo img{
+  padding-top: 5px;
+  width: 30%;
+}
+.grupo{
+ width: 30%;
+ margin-top: 17px;
+ float: left;
+}
+.grupo p{
+  padding-left: 10px;
+}

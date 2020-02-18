@@ -1,0 +1,98 @@
+header{
+  overflow: hidden;
+}
+.logo{
+  width: 25%;
+  height: 220px;
+  float: left;
+  background-color: black;
+}
+.Logoimg{
+  width: 65%;
+  height: 220px;
+}
+.menu{
+  width: 15%;
+  height: 120px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+.menu a:hover{
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.menu a{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.Contenedor{
+overflow: hidden;
+}
+.descripcion{
+  float: left;
+  width: 50%;
+  height: 300px;
+  text-align: justify;
+  padding: 0px 20px 20px 20px;
+  margin-bottom: 10px;
+}
+h2{
+  font-size:35px ;
+}
+.ingles{
+  font-style: italic;
+}
+.descripcion p{
+  font-size: 20px;
+}
+h4{
+  background-color: yellow;
+  border: dotted 5px black;
+  margin: 5px 100px 5px 100px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;:
+  padding: 20px;
+}
+.foto{
+  width: 45%;
+  height: 380px;
+  float: left;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  padding-top: 50px;
+}
+.foto img{
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.video{
+  width: 100%;
+}
+
+footer{
+background-color: black;
+color: white;
+}
+
+.box{
+  overflow: hidden;
+}
+.IZQ{
+  width: 50%;
+  float: left;
+
+}
+.DER{
+  width: 50%;
+  float: left;
+
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.logo{
+  width: 15%;
+  height: 150px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+  border: 3px solid black;
+  padding:10px;
+}
+
+.menu{
+  float: left;
+  width: 14%;
+  height: 100px;
+  background-color: #fc7c58;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.menu a{
+  color: black;
+  font-size: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.cont {
+  background-color:white;
+  overflow: hidden;
+}
+
+
+.fotos{
+  float: left;
+  width: 32.5%;
+  text-align: center;
+}
+
+.fotos img{
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 2px outset black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.fotos p{
+  background-color: #fc7c58;
+  padding-left: 10px;
+  margin: 15px;
+  height: 250px;
+
+}
+.parrafo{
+  text-align: left;
+}
+.slider{
+    background-color: #fc7c58;
+}
+.mySlides {
+  display:none;
+}
+
+
+footer{
+  overflow: hidden;
+  margin-top: 20px;
+  border-top: 2px solid black;
+}
+ .logo_cole{
+  width: 25%;
+  float: left;
+}
+.logo_cole img{
+  width: 18%;
+  padding-top: 5px;
+}
+.Colegio{
+ width: 25%;
+ margin-top: 17px;
+ float: left;
+}
+.Colegio p{
+  padding-left: 10px;
+}
+.logo_grupo{
+ width: 20%;
+ float: left;
+}
+.logo_grupo img{
+  padding-top: 5px;
+  width: 30%;
+}
+.grupo{
+ width: 30%;
+ margin-top: 17px;
+ float: left;
+}
+.grupo p{
+  padding-left: 10px;
+}

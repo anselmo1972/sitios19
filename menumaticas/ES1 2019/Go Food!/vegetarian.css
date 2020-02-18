@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sushi{
+  width: 24%;
+  height: 150px;
+  background-color:lightblue;
+  float: left;
+}
+.sushi img{
+  width: 100%;
+  height: 150px;
+}
+.dona{
+  width: 15%;
+  height: 150px;
+  background-color: lightblue;
+  float:left;
+  text-align: center;
+  padding-top: 50px;
+
+
+}
+header{
+  overflow: hidden;
+background-color:lightblue;
+}
+
+a{
+  color: black;
+
+}
+
+a:hover{
+  color:purple;
+font-size: 20px;
+}
+.contenedora{
+
+  overflow: hidden;
+}
+.foto{
+width: 20%;
+  float:left;
+}
+
+
+
+.foto{
+width: 20%;
+  float:left;
+}
+
+
+.foto{
+width: 20%;
+  float:left;
+}
+.info{
+
+  width: 70%;
+  float:right;
+}
+
+
+.info{
+
+  width: 70%;
+  float:right;
+}
+.info{
+
+  width: 70%;
+  float:right;
+}
+footer{
+width: 100%;
+background-color: pink;
+}
+
+.caja_1{
+  overflow: hidden;
+  width: 100%;
+}
+.caja_2{
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+}
+
+.cajaIZQ_1{
+  float: left;
+  background-color: rgba(243, 249, 232, 0.5);
+  margin: 20px;
+  width: 20%;
+  height: 150px;
+}
+.cajaDER_1{
+  float: left;
+  background-color: pink;
+  margin: 20px;
+  width: 70%;
+  height: 150px;
+}
+
+
+.cajaIZQ_2{
+  float: left;
+  background-color: white;
+  margin: 20px;
+  width: 20%;
+  height: 50px;
+}
+.cajaDER_2{
+  float: left;
+  background-color: green;
+  margin: 20px;
+  width: 70%;
+  height: 50px;
+}
+.a{
+width: 100%;
+}
+
+.b{
+  width: 100%;
+}
+.c{
+width: 100%;
+}
+.hola{
+font-size: 200%;
+}

@@ -1,0 +1,100 @@
+header{
+  overflow: hidden;
+}
+.logo{
+  width: 25%;
+  height: 220px;
+  float: left;
+  background-color: black;
+}
+.Logoimg{
+  width: 65%;
+  height: 220px;
+}
+.menu{
+  width: 15%;
+  height: 120px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+.menu a:hover{
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.menu a{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.contenedora{
+  overflow: hidden;
+}
+.titulo{
+  font-size: 150%;
+  text-align: right;
+  margin-right: 40px;
+}
+.traduccion{
+  text-align: right;
+  margin-right: 40px;
+}
+.fotodelgrupo{
+  width: 48%;
+  float:left;
+  padding: 20px 10px 10px 40px;
+}
+.fotodelgrupo img{
+  width: 85%;
+  margin: 5px 0px 10px 10px;
+  padding: 10px;
+  background-color: white;
+  border: 2px outset black;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: rotate(-5deg);
+}
+.textoinformativo{
+  width: 46%;
+  float: left;
+  font-size: 130%;
+  text-align: justify;
+}
+.mision{
+  width: 45%;
+  height: 200px;
+  float: left;
+  font-size: 120%;
+  text-align: justify;
+  margin:10px 5px 10px 10px;
+  padding: 15px;
+  border: dotted 5px violet;
+}
+.vision{
+  width: 45%;
+  height: 200px;
+  float: left;
+  font-size: 120%;
+  text-align: justify;
+  margin:10px 10px 10px 5px;
+  padding: 15px;
+  border: dotted 5px violet;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+.box{
+  overflow: hidden;
+}
+.IZQ{
+  width: 50%;
+  float: left;
+}
+.DER{
+  width: 50%;
+  float: left;
+}

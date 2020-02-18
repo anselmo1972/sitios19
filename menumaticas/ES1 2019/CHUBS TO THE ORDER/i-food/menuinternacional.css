@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+  float:left;
+  width: 14%;
+  height: 100px;
+  background-color: lightpink;
+}
+.logo{
+  float:left;
+  width:30%;
+  height:100px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+header{
+  overflow: hidden;
+}
+img{
+width: 50%;
+height: 100px;
+  }
+  .color2{
+    background-color: lightskyblue;
+    float: left;
+    width: 14%;
+    height: 100px
+    }
+    .titulo{
+      border: solid;
+      border-color: magenta;
+      width: 150px;
+      font-size: 120%;
+      }
+      .comida{
+        border: dotted;
+        border-color: royalblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 500px;
+    float: left;
+    margin-right:20px;
+    font-size: 120%;
+        }
+        .imagencomida{
+          float: left;
+          width: 500px;
+          }
+          .entrada{
+            overflow: hidden;
+            }
+        .footer{
+          overflow: hidden;
+          }
+          .divfooter2{
+            float: left;
+            width: 40%;
+            background-color: lightskyblue;
+            }
+            .divfooter3{
+              float: left;
+              width: 40%;
+              background-color: lightpink;
+            }
+            main{
+              margin-bottom: 20px;
+              }
+              .logoget{
+                float: left;
+                width: 10%;
+              }
+              .logonuestro{
+                float: left;
+                width: 10%;
+              }
+              .footer img{
+                width: 100%;
+                }
+                .inglesss{
+                  width: 100%;
+                  }
+.precio{
+  border: dotted;
+  border-color: lightpink;
+width: 120px;
+float: left;
+margin-right:20px;
+font-size: 120%;
+}

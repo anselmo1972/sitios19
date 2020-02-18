@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+  font-family: 'Indie Flower', cursive;
+}
+.box{
+  float: left;
+  width: 15%;
+  height:150px;
+  text-align: center;
+  background-color:white;
+}
+.menu{
+  float: left;
+  width: 15.7%;
+  height:40px;
+  margin-top: 50px;
+  margin-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+  border: 2px dotted black;
+  border-radius: 5px;
+  background-color:pink;
+}
+.menu a{
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+.contenedora{
+  overflow: hidden;
+}
+.logo
+{
+width:90%;
+height: 150px;
+}
+.portfolio{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top:10px;
+}
+
+.primerpartedelproyecto{
+  margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.tipodemenu{
+  margin-top: 50px;
+}
+
+  .encuentrocuarto img{
+    width: 50%;
+    height: 250px;
+    border-radius: 100px;
+
+    border: black solid;
+    margin-bottom: 20px;
+  }
+  .primerparte img{
+    width: 50%;
+    height: 250px;
+    border-radius: 100px;
+
+    border: black solid;
+    margin-bottom: 20px;
+  }
+  .pa{
+    border:pink solid;
+  }
+  footer{
+    overflow: hidden;
+    background-color: pink;
+    text-align: center;
+    border: dotted black 5px;
+    margin: 5px 10px 5px 10px;
+  }
+  .logoGoethe{
+    float: left;
+    width: 15%;
+    padding: 30px;
+  }
+  .parrafos{
+    float: left;
+    width: 60%;
+  }
+  .parrafos p{
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+  }
+  .logoGrupo{
+    float: left;
+    width: 15%;
+    padding: 30px;
+  }
+  .logoGoethe img{
+    width: 50%;
+  }
+  .logoGrupo img{
+    width: 60%;
+  }
+
+  p{
+    margin-left: 10px;
+
+
+  }
+  .mySlides {
+    display:none;
+    text-align: center;
+    border: solis black;
+  }
+
+  .encuentrocuarto{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.

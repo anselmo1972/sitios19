@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <header>
+    <div class="cont">
+      <div class="logo">
+          <img src="imagenes/_Ronsky.png" alt="Ronsky" class="logo">
+        </div>
+          <div class="menu">
+          <a href="index.html">Home</a>
+          </div>
+          <div class="menu">
+          <a href="menulibredelactosa.html">Libre de lactosa</a>
+          </div>
+          <div class="menu">
+          <a href="menulight.html">Light</a>
+          </div>
+          <div class="menu">
+          <a href="menubajoensodiovegetariano.html">Vegetariano</a>
+          </div>
+          <div class="menu">
+         <a href="portfolio.html">Portfolio</a>
+          </div>
+      </div>
+    </header>
+    <main>
+      <div class="Portfolio">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="cont">
+        <div class="fotos">
+          <img src="imagenes/aprendiendodelanutricion.JPG" alt="">
+        </div>
+        <div class="fotos">
+          <img src="imagenes/aprendiendodelanutricion(2).JPG" alt="">
+        </div>
+        <div class="fotos">
+          <img src="imagenes/Aprendiendo_sobre_la_nutricion.JPG" alt="">
+        </div>
+      </div>
+
+      <div class="cont">
+        <div class="fotos">
+          <p class="parrafo">Nos gustó mucho el trabajo porque para nosotros trabajamos muy bien como equipo. Aprendimos cosas nuevas sobre comida y nos parecio fácil encontrar diferentes recetas para los platos.</p>
+        </div>
+        <div class="cont">
+          <div class="fotos">
+            <p class="parrafo">Encuentro con 6to(costos):
+El 13/11/19 tuvimos un encuentro con 6to el encuentro sirvió mucho para tener un porcentaje para agregarle a los platos de comida.</p>
+          </div>
+        <div class="fotos">
+<p class="parrafo">El encuentro fue divertido pero no aprendimos muchas cosas de la nutrición y fue medio desordenado.</p>
+        </div>
+        <div class="fotos">
+<p class="parrafo">El logo se nos ocurrió espontáneamente. El nombre lo sacamos de un pequeño cuento que hicimos en clase. Y por último el eslogan se nos ocurrió por una conocida canción de cancha.</p>
+        </div>
+
+        <div class="fotos">
+<p class="parrafo">Encuentro con 6to(misión visión)
+
+Uno de cada grupo fue a un encuentro con sexto año para saber sobre la importancia de la misión y visión de una empresa y que era la misión y visión para después crearlas para nuestro proyecto de Menúmaticas. Nos explicaron muy bien qué era cada cosa y entiendo su importancia en una empresa. El encuentro fue organizado ya que solo era un integrante por grupo
+
+</p>
+        </div>
+
+      </div>
+      <div class="slider">
+        <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="imagenes/aprendiendodelanutricion.jpg" style="width:100%">
+            <img class="mySlides" src="imagenes/aprendiendodelanutricion(1).jpg" style="width:100%">
+            <img class="mySlides" src="imagenes/aprendiendodelanutricion(3).jpg" style="width:100%">
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="logo_cole" align="right">
+        <img src="imagenes/Goethe.jpg" alt="Goethe">
+      </div>
+      <div class="Colegio">
+        <p> COLEGIO GOETHE </p>
+        <p> Asignatura de Matemática </p>
+        <p> Proyecto MENUMATICAS </p>
+      </div>
+      <div class="logo_grupo" align="right">
+        <img src="imagenes/_Ronsky.png" alt="RONSKY">
+      </div>
+      <div class="grupo">
+        <p> RONSKY </p>
+        <p> Servicio de Catering </p>
+        <p> Agustina G. - Valentin G. - Melanie H. - Axel H.</p>
+      </div>
+    </footer>
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+  </body>
+</html>

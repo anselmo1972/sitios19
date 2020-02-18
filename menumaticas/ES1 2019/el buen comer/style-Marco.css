@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 15%;
+  height:200px;
+  float: left;
+  margin-right: 2.5%;
+}
+.log{
+  height: 200px;
+  width: 100%;
+
+}
+.menu{
+  width: 16.5%;
+  height: 200px;
+  float: left;
+  background-color: green;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+
+  font-size: 25px;
+}
+
+
+.menu a:hover{
+  font-size: 26px;
+}
+
+header{
+  overflow: hidden;
+}
+
+.precentaciondelplato{
+  height:100px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+.nombre{
+  width: 100%;
+  height: 80px;
+  margin-left: 120px;
+  padding-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.nombre p{
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: justify;
+  color: black;
+}
+.fondomenu{
+  background-image: url("imagenes/fondoparamenu.jpg");
+}
+
+.contenido{
+  overflow: hidden;
+}
+
+.foto{
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+}
+.foto img{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.foto video{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.textotentador{
+  width: 50%;
+  float: right;
+  height: 250px;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 80px;
+  margin-bottom: 60px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: 2px solid #7a4848;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.textotentador p{
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+
+  color: black;
+}
+
+.contenedora-2{
+  overflow: hidden;
+  background-color: darkgreen;
+  border: 2px solid black;
+}
+.direccion{
+  float: left;
+  width: 50%;
+}
+.direccion p{
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.integrantes{
+  float: left;
+  width: 50%;
+}
+.integrantes p{
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.traduccion{
+  float: right;
+}

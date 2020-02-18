@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+header{
+  overflow: hidden;
+}
+.logo{
+  width: 15%;
+  float: left;
+}
+
+.logo img{
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.menu{
+  width: 17%;
+  float: left;
+  padding-top: 50px;
+}
+
+.menu a{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  background-color: rgb(270, 270, 270);
+}
+
+main{
+  overflow: hidden;
+}
+
+.intro h1{
+  text-align: center;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+}
+.cajaGRANDE{
+  overflow: hidden;
+}
+.cajachica{
+  float: left;
+  width: 31.7%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(199, 189, 189, 0.5);
+}
+.cajachica img{
+  text-align: center;
+  padding: 6px;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 300px;
+  border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.video{
+  width: 50%;
+}
+.cajachica p{
+  color: black;
+  padding: 15px;
+  text-align: justify;
+}
+.slider{
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+  background-color: rgb(199, 189, 189);
+}
+
+footer{
+  color: black;
+  margin-top: 10px;
+  }
+  .caja{
+    overflow: hidden;
+    border: 3px solid black;
+  }
+  .IZQ{
+    width: 45%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+    border-left: 3px solid #c7bdbd;
+  }
+  .IZQ p{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    font-size: 18px;
+  }
+  .logocole{
+    width: 10%;
+    float: left;
+    padding-bottom: 14.5px;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+  }
+  .logocole img{
+    width: 64%;
+    padding-top: 12px;
+  }
+  .DER{
+    width: 45%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+    border-right: 3px solid #c7bdbd;
+  }
+  .DER p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom:4px;
+    font-size: 18px;
+  }
+.mySlides {
+  display:none;
+  padding-top: 20px;
+}
+
+.vuelta {
+  transform: rotate(90deg);
+}

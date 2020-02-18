@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio in English</title>
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo" align="center">
+        <img src="imagenes/Calixta_sCompany.png" alt="foto">
+      </div>
+      <div class="contenedor">
+        <div class="menu">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="menu">
+          <a href="hipertenso.html">HYPERTENSE MENU</a>
+        </div>
+        <div class="menu">
+          <a href="intolerante.html">LACTOSE FREE MENU</a>
+        </div>
+        <div class="menu">
+          <a href="normal.html">NORMAL MENU</a>
+        </div>
+        <div class="menu">
+          <a href="portfolio.html">PORTFOLIO</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>PORTFOLIO</h1>
+      <div class="intro">
+        <p>On this page of our website, we want to show you the different stages of our project. We hope you enjoy it.</p>
+      </div>
+      <div class="botoningles">
+        <a href="portfolio.html">Translation to Spanish</a>
+      </div>
+      <div class="cajaGRANDE">
+        <div class="cajachica" align="center">
+          <img src="imagenes/img_20191113_181126.jpg" alt="Selección de recetas">
+<h4>Recipe Selection</h4>
+          <p>What we did with the menus was that we all looked for recipes in a cookbook. It wasn't that difficult. Then we decided three recipes for each menu and some of them translated into English.
+ </p>
+        </div>
+        <div class="cajachica" align="center">
+          <img src="imagenes/encuentroconcuarto.jpeg" alt="Encuentro con 4to">
+<h4>Meeting with 4th. year</h4>
+          <p>  The boys in 4th E had to tell us (1st year) information for our project, but they didn't have to tell everyone. Some people were in charge of taking pictures about what your group was doing. At that time there were two parts, one part explained to everyone and the other one helped them, that the student of design and aesthetics had to start making the model of the logo and the others (the other two students) continue with the project . We learned a lot and had fun.
+ </p>
+        </div>
+        <div class="cajachica" align="center">
+          <img src="imagenes/diseñodellogo.jpg" alt="Diseño del logo">
+<h4>Logo design</h4>
+          <p> We choose the color brown because it imposes elegance, rusticity and hunger. The fork and knife drawings are the sign of homemade food. We think of a circle to be more orderly and to have more logo shape. (The logo was designed by María F. Made by Micaela E. and with the collaboration of Maria F.)
+ </p>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="w3-content w3-section" style="max-width:400px;height:400px">
+          <img class="mySlides" src="imagenes/encuentro4catorce.jpg.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/img_1664.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/img_1697.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/img_20191120_153152.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/imgencuentroconsexto.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/IMG_20191113_181117.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/IMG_20191113_181126.jpg" style="width:100%">
+          <img class="mySlides" src="imagenes/IMG_20191113_174937.jpg" style="width:100%">
+        </div>
+      </div>
+      <div class="cajafinGR">
+        <div class="cajafinCH" align="center">
+          <img src="imagenes/img_20191120_153206.jpg" alt="Encuentro con 6to">
+        </div>
+        <div class="cajafinCH">
+<h4>The meeting with 6th year</h4>
+          <p> We had 2 meetings with the 6th boys. The first we were seeing the theme of mission and vision. The 6th guy helped me very well and I understood the subject a lot. The second meeting we were talking and seeing the tables of the costs of the menus. The subject I understood quite well and the boys of 6th explained to me very well. I liked the meetings a lot and they helped me to continue with the project.</p>
+        </div>
+        <div class="cajafinCH">
+          <video width="320" height="240" controls>
+             <source src="VideoReceta.mp4" type="video/mp4">
+</video>
+        </div>
+        <div class="cajafinCH">
+<h4>How did we make the video?</h4>
+          <p> We meet on a Wednesday. We took advantage of the fact that the three of us had extra and went to Maria's house. After having tea, we started, Maria's mother brought us the ingredients. Tufa and Persi cooked and Maria record. We were changing roles eg Persi recorded and Tufa and Maria cooked. Maria edited and Mica helped a bit by editing. Mica could not come because she had to go to Jujuy. We cook chocolate truffles. </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="box">
+      <div class="IZQ">
+        <p>GOETHE SCHOOL</p>
+        <p>First year Secondary Education</p>
+        <p>Menumatics proyect</p>
+      </div>
+      <div class="logocole" align="center">
+        <img src="imagenes/logo-cole.jpg" alt="logo del colegio">
+      </div>
+      <div class="DER">
+        <p>CALIXTAS COMPANY</p>
+        <p>Micaela E. - María F. - Matías P. - Tomás T.</p>
+        <p>November 2019</p>
+      </div>
+    </footer>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>

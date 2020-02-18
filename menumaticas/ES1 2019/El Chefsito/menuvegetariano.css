@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chefsito{
+  width: 16%;
+  height: 150px;
+background-color: #8bc3cc;
+float: right;
+text-align: center;
+padding-top: 60px;
+  }
+
+  .chefsito a{
+    color: black;
+  }
+
+  .chef{
+    width: 20%;
+    height: 150px;
+    background-color: #9f6aa6;
+    float:right;
+  }
+
+  .chefsito a:hover{
+    font-size: 15px;
+    color: green; }
+
+header{
+  overflow: hidden;
+}
+
+.chefimagen{
+  height: 150px;
+  width: 100%;
+}
+
+.contenedora{
+  overflow: hidden;
+}
+
+.imagen{
+  float: left;
+  width: 30%;
+}
+.imagen img{
+  width: 100%;
+}
+.pink{
+  color: #D35757 ;
+}
+.contenedora{
+  background-color: #C9EFEB ;
+  border: 1px solid #75F3C8;
+}
+.video video{
+  width: 80%;
+  float: right;
+  padding-right: 0px;
+  padding-top: 40px;
+}
+
+.texto{
+  float: left;
+  width: 70%;
+}
+.foto{
+  width: 15%;
+  float: left;
+  height: 100px;
+}
+.nombres{
+  width: 35%;
+  float: left;
+}
+footer{
+  overflow:hidden;
+  color: black;
+}
+.foto img{
+  width: 100%;
+  height: 100%
+}
+.video{
+  width: 100%;
+}
+.box{
+   overflow: hidden;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+ }
+ .IZQ{
+   width: 45%;
+   float: left;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   background-color: #94d649;
+ }
+ .IZQ p{
+   text-align: center;
+   padding-right: 20px;
+   padding-bottom: 3px;
+   font-size: 15px;
+ }
+ .logocole{
+   width: 10%;
+   float: left;
+   text-align: center;
+ }
+ .logocole img{
+   width: 60%;
+   height:60%;
+   padding-top: 10px;
+ }
+ body{
+   font-family: 'Montserrat Alternates', sans-serif;
+ }
+ .DER{
+   width: 45%;
+   float: left;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   background-color: #94d649;
+ }
+ .DER p{
+   text-align: center;
+   padding-left: 20px;
+   padding-bottom: 3px;
+   font-size: 15px;
+ }

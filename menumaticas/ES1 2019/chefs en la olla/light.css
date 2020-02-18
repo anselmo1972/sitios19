@@ -1,0 +1,147 @@
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+main{
+  background-image: url("imagenes/estefondo.jpg");
+}
+header{
+  overflow: hidden;
+}
+.logo{
+  width: 15%;
+  float: left;
+}
+
+.logo img{
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.menu{
+  width: 17%;
+  float: left;
+  padding-top: 50px;
+}
+
+.menu a{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 23px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  background-color: rgb(270, 270, 270);
+}
+
+.portfolio{
+    padding-top: 150px;
+  text-align: center;
+  width: 15%;
+  height: 40px;
+  float: left;
+  font-size: 30px;
+}
+.contenedor{
+overflow: hidden;
+margin-top: 20px;
+
+
+}
+.foto{
+  float: left;
+  width: 25%;
+  height: 250px;
+
+
+}
+.Texto{
+  width:60%;
+  float: left;
+  height: 250px;
+margin-left: 20px;
+border: 2px black solid;
+background-color: rgba(228, 228, 228, 0.68);
+font-size: 35px;
+}
+.link{
+float: left;
+width: 80%;
+height: 50px;
+background-color: rgba(232, 86, 125, 0.75);
+border: 2px black  solid;
+}
+.precio{
+  float: left;rgba(96, 210, 230, 0.57)
+  width: 20%;
+  height: 50px;
+  background-color:rgba(43, 204, 141, 0.7);
+  border: 2px black solid;
+
+}
+.foto img{
+  width: 100%;
+}
+
+.enlace{
+  color: black;
+}
+footer{
+  color: black;
+  margin-top: 10px;
+  }
+  .caja{
+    overflow: hidden;
+    border: 3px solid black;
+  }
+  .IZQ{
+    width: 45%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+    border-left: 3px solid #c7bdbd;
+  }
+  .IZQ p{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    font-size: 18px;
+  }
+  .logocole{
+    width: 10%;
+    float: left;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+  }
+  .logocole img{
+    width: 64%;
+    padding-top: 4.5px;
+  }
+  .DER{
+    width: 45%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #c7bdbd;
+    border-bottom: 3px solid #c7bdbd;
+    border-right: 3px solid #c7bdbd;
+  }
+  .DER p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom:4px;
+    font-size: 18px;
+  }

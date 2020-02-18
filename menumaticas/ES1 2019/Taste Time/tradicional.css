@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("imagenes/fondodelapaginaweb.jpg");
+}
+header{
+  overflow: hidden;
+  background-color: white;
+}
+.menu{
+  float: left;
+  width: 14%;
+  height: 100px;
+  background-color: white;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo{
+  width: 15%;
+  height: 150px;
+  background-color: black;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+
+}
+.menu a{
+color: black;
+font-size: 20px;
+padding-top: 20px;
+}
+
+.boxunomenu{
+  overflow: hidden;
+}
+
+.boxdosmenu{
+  overflow: hidden;
+}
+
+.titulomenu{
+  width: 100%;
+  height: 100px;
+  float: left;
+  padding: 20px;
+  background-color: rgba(227, 200, 175, 0.5)
+}
+
+.titulomenu p{
+  font-family:'Cambo', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.fotomenu{
+  width: 40%;
+  float: left;
+  padding: 20px;
+}
+.fotomenu img{
+  width: 100%;
+  border-radius: 50px;
+}
+.textomenu{
+  width: 60%;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  font-size: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
+.textomenu h5{
+  background-color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+footer{
+  color: black;
+  border-top: 2px solid black;
+  background-color: white;
+  }
+  .box{
+    overflow: hidden;
+  }
+  .IZQ{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+  }
+  .IZQ p{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }
+  .logocole{
+    width: 6%;
+    float: left;
+  }
+  .logocole img{
+    width: 100%;
+  }
+  .DER{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    background-color: white;
+  }
+  .DER p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }

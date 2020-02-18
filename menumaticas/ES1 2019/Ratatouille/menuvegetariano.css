@@ -1,0 +1,118 @@
+header{
+  overflow: hidden;
+}
+.logo{
+  width: 25%;
+  height: 220px;
+  float: left;
+  background-color: black;
+}
+.Logoimg{
+  width: 65%;
+  height: 220px;
+}
+.menu{
+  width: 15%;
+  height: 120px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+.menu a:hover{
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.menu a{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.fotovacio{
+  width: 35%;
+  height: 300px;
+  float: left;
+}
+
+.fotovacio img{
+  width: 100%;
+}
+
+.fotoensa img{
+  width: 100%;
+}
+.Contenedor{
+overflow: hidden;
+}
+h2{
+  font-size:35px ;
+
+}
+.fotoensa{
+  height: 250px;
+  float: left;
+  width: 30%;
+}
+.descrpvacio{
+float: left;
+  width: 35%;
+text-align: center;
+}
+.descrpemp{
+  float: left;
+    width: 35%;
+text-align: center;
+}
+.descrpemp p{
+  font-size: 20px ;
+
+}
+.empafoto{
+  width: 65%;
+  float: left;
+height: 600px;
+}
+
+
+}
+.descrpan p{
+  font-size: 20px ;
+}
+.descrpan{
+  float: left;
+    width: 45%;
+text-align: center;
+}
+.panfoto{
+  width: 55%;
+  float: left;
+}
+.panfoto img{
+  width: 100%;
+}
+footer{
+background-color: black;
+color: white;
+}
+.box{
+  overflow: hidden;
+}
+.IZQ{
+  width: 50%;
+  float: left;
+
+}
+.DER{
+  width: 50%;
+  float: left;
+
+}
+h4{
+  background-color: yellow;
+  border: dotted 5px black;
+  margin: 5px;
+
+}

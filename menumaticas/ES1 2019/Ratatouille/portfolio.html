@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+    <img src="imagenes/Ratatouille.png" alt="Logo" class="Logoimg">
+      </div>
+      <div class="menu">
+    <a href="index.html">INICIO</a>
+      </div>
+      <div class="menu">
+    <a href="menuita.html">MENU ITALIANO</a>
+      </div>
+    <div class="menu">
+    <a href="menuarg.html">MENU ARGENTINO</a>
+        </div>
+          <div class="menu">
+    <a href="menuvegetariano.html">MENU VEGETARIANO</a>
+          </div>
+          <div class="menu">
+    <a href="portfolio.html">PORTFOLIO</a>
+          </div>
+    </header>
+
+<main>
+    <div class="contenedora">
+      <div class="titulo">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="traduccion">
+        <a href="portfolioingles.html">VER TRADUCCION</a>
+      </div>
+    </div>
+    <div class="parrafo">
+      <p> Para hacer este proyecto, hicimos a principio de año en el Drive y escribimos todas las recetas del Menu. Las recetas las pasamos al ingles y nos pusimos un nombre al
+  grupo. En agosto nos juntamos con los chicos de cuarto año en el hall Germania y nos explicaron todo sobre la alimentacion y como es un menu saludable. Ahi tambien nos
+  ayudaron a como diseñar el logo. Despues Thomas diseño el logo y entre todos la pagina web.
+ Nuestro logo es muy básico pero animado. Cuando pensamos en el nombre sabiamos
+   que ibamos a poner alguna foto que tenga algo que ver con la película “Ratatouille”, porque el nombre está inspirado en ella.
+ A nosotros nos parecio que la experiencia
+   con los chicos de 4to fue genial, nos enseñaron muchas cosas y nos sirvió para el proyecto. Juan fue el que diseño el Logo. El encuentro con los de 6to fue una de las
+  cosas que más nos sirvieron. Solo fue uno de cada grupo, de nuestro grupo fue Juan. Primero nos presentaron una presentación y nos explicaron algunas cosas claves. Después te separaban en mesas con mínimo
+ uno de sexto y ellos te iban ayudando y explicando cómo se podía llegar al precio con una ganancia para beneficiar nuestro negocio de catering. Los chicos de sexto fueron
+  muy amables y escucharon cada pregunta que les hicimos. siempre intentaban explicartelo de la mejor manera para que lo entendieras bien.
+ Luego buscamos los costos de los ingredientes de todas las recetas en el drive. Empezamos el proyecto en el
+  Atom e hicimos un usuario para cada grupo. El video lo hicieron Juan y Thomas cada uno por su y cada uno en su casa. Lo hicieron a la tarde con la aplicacion Imovie! Filmar el video fue muy divertido. Thomas cocinó el tiramisú y juan los panqueques. Maiki y maia hicieron las voces en off, aunque maia no pudo terminar la de el tiramisú porque estaba muy ocupada haciendo las traducciones del index asi que … la termino. La parte de editar fue medio aburrida porque ya te cansabas de escuchar miles de veces la misma parte hasta que la terminabas de editar.</p>
+    </div>
+    <div class="slider">
+      <div class="w3-content w3-section" style="max-width:400px;height:400px">
+        <img class="mySlides" src="imagenes/portfolio_1.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_2.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_3.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_4.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_5.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_6.jpg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_7.jpeg" style="width:100%">
+        <img class="mySlides" src="imagenes/portfolio_8.jpg" style="width:100%">
+      </div>
+    </div>
+</main>
+
+<footer>
+  <div class="box">
+  <div class="IZQ">
+    <p>COLEGIO GOETHE</p>
+    <p>Educacion Secundaria</p>
+    <p>Asignatura de Matematica</p>
+  </div>
+  <div class="DER">
+    <p>Proyecto MENUMATICAS</p>
+    <p>Ratatoille - Servicio de Catering</p>
+    <p>Maiki C., Maia S., Thomas K. y Juan R.</p>
+  </div>
+</div>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>

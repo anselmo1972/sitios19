@@ -28,6 +28,14 @@ height: 400px;
   background-size: auto;
   margin-right: 5px;
   background-position: 0px -40px;
+  filter: brightness(50%);
+  filter: grayscale(50%);
+}
+
+.menumaticas:hover {
+  filter: brightness(100%);
+  filter: grayscale(0%);
+  transition: 1s;
 }
 
 .chetamos {
@@ -38,19 +46,27 @@ height: 400px;
   background-size: auto;
   margin-left: 5px;
   background-position: 0px -10px;
+  filter: brightness(50%);
+  filter: grayscale(50%);
+}
+
+.chetamos:hover {
+  filter: brightness(100%);
+  filter: grayscale(0%);
+  transition: 1s;
 }
 
 .chetamos p {
   background-color: rgba(200,200,200,0.7);
   padding:9px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight:200;
 }
 
 .menumaticas p {
   background-color: rgba(200,200,200,0.7);
   padding:9px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight:200;
 }
 

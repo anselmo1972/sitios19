@@ -1,0 +1,151 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+  float:left;
+  width: 14%;
+  height: 100px;
+  background-color: lightpink;
+}
+.logo{
+  float:left;
+  width:30%;
+  height:100px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+header{
+  overflow: hidden;
+}
+img{
+width: 50%;
+height: 100px;
+  }
+  .color2{
+    background-color: lightskyblue;
+    float: left;
+    width: 14%;
+    height: 100px
+    }
+        main{
+          margin-bottom: 20px;
+          }
+.titulo{
+  border: solid;
+  border-color:magenta;
+  margin-top: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  }
+  .introduccion{
+    border: dotted;
+    border-color: royalblue;
+    width: 50%;
+    text-align: center;
+    float: left;
+
+    }
+    .logoportfolios{
+      border: dashed;
+      border-color: palegreen;
+      width: 50%;
+      text-align: center;
+      float: left;
+        height: 200px;
+      }
+      .recetasss{
+        border: solid;
+        border-color: fuchsia;
+        width: 50%;
+        text-align: center;
+        float: left;
+        height: 200px;
+      }
+      .ayudaalslider{
+        width: 35%;
+        text-align: center;
+        float: left;
+        height: 200px;
+      }
+        .encuentroconlosde4{
+          border: dashed;
+          border-color: lightskyblue;
+          width: 50%;
+          text-align: center;
+          float: left;
+          height: 200px;
+          }
+  .contenedora{
+    overflow: hidden;
+    }
+.imagenportfolio{
+  float: left;
+  width: 25%;
+  height: 300px;
+}
+  .imagenportfolio img{
+    height: 70%;
+    width: 100%;
+    margin-bottom: 0px;
+    }
+.Slidesss{
+      float: left;
+      width: 30%;
+      height: 300px;
+      margin-bottom: 0px;
+      }
+.Slidesss img{
+        height: 70%;
+        width: 100%;
+        margin-bottom: 0px;
+        }
+  .imagen2portfolio{
+  float: left;
+  width: 25%;
+}
+.videotexto{
+  border: dashed;
+  border-color:blue;
+  width: 50%;
+  text-align: center;
+  float: left;
+  height: 200px;
+  }
+  .descripciondeprecios{
+    border: solid;
+    border-color: green;
+    width: 50%;
+    text-align: center;
+    float: left;
+    height: 200px;
+    }
+    .footer{
+      overflow: hidden;
+      }
+      .divfooter2{
+        float: left;
+        width: 40%;
+        background-color: lightskyblue;
+        }
+        .divfooter3{
+          float: left;
+          width: 40%;
+          background-color: lightpink;
+        }
+        .logoget{
+          float: left;
+          width: 10%;
+        }
+        .logonuestro{
+          float: left;
+          width: 10%;
+        }
+        .footer img{
+          width: 100%;
+        }
+.inglesss{
+  width: 100%;
+  }
+      .mySlides {display:none;}

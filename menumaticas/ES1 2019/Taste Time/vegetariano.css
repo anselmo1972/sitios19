@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("imagenes/fondodelapaginaweb.jpg");
+}
+
+header{
+  overflow: hidden;
+  background-color: white;
+}
+.menu{
+  float: left;
+  width: 14%;
+  height: 100px;
+  background-color: white;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo{
+  width: 15%;
+  height: 150px;
+  background-color: black;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+
+}
+.menu a{
+color: black;
+font-size: 20px;
+padding-top: 20px;
+}
+
+.boxunomenu{
+  overflow: hidden;
+}
+
+.boxdosmenu{
+  overflow: hidden;
+}
+
+.titulomenu{
+  width: 100%;
+  height: 80px;
+  float: left;
+  padding: 15px;
+  background-color: rgba(227, 200, 175, 0.8)
+}
+.titulomenu p{
+  font-family:'Cambo', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fotomenu{
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  background-color: rgba(227, 200, 175, 0.8)
+}
+.fotomenu img{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.textomenu{
+  width: 45%;
+  height: 230px;
+  float: left;
+  margin: 40px 10px 15px 10px;
+  padding: 15px;
+  font-size: 30px;
+  display: inline-block;
+  background-color: rgba(110, 62, 38, 0.85);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.textomenu p{
+  height: 100px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.textomenu h6{
+  height: 50px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.boton{
+  height: 50px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 25px 25px 25px 35px;
+  text-align: right;
+  font-size: 17px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color:rgba(252, 252, 252, 0.85);
+}
+.contenedora div{
+  width: 40%;
+  height: 100px
+}
+footer{
+  color: black;
+  border-top: 2px solid black;
+  background-color: white;
+  }
+  .box{
+    overflow: hidden;
+  }
+  .IZQ{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+    background-color: white;
+  }
+  .IZQ p{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }
+  .logocole{
+    width: 6%;
+    float: left;
+  }
+  .logocole img{
+    width: 100%;
+  }
+  .DER{
+    width: 47%;
+    float: left;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+    background-color: white;
+  }
+  .DER p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }

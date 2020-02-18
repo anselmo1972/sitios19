@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sushi{
+  width: 24%;
+  height: 150px;
+  float: left;
+}
+
+.sushi img{
+  width: 100%;
+  height: 150px;
+}
+.dona{
+  width: 15%;
+  height: 150px;
+  background-color: lightblue;
+  float:left;
+  text-align: center;
+  padding-top: 50px;
+}
+header{
+  overflow: hidden;
+  background-color:lightblue;
+}
+
+a{
+  color: black;
+
+}
+
+a:hover{
+  color:purple;
+font-size: 20px;
+}
+.imagen{
+float:left;
+  width:50%;
+}
+.objetivo{
+float:right;
+  width:50%;
+  font-size: 200%;
+}
+.contenedora{
+  overflow: hidden;
+}
+.mision{
+width: 50%;
+  float: left;
+}
+
+.imagen img{
+  width: 100%;
+}
+.vision{
+width:50%;
+  float:right;
+}
+footer{
+width: 100%;
+background-color: pink;
+}
